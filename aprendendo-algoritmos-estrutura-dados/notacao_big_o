@@ -1,0 +1,11 @@
+# Notação big O
+
+A notação *Big O* informa a velocidade de um algoritmo com base na taxa variação de quantidade de operações que o mesmo possui.
+
+Por exemplo, imagine uma lista de tamanho $n$. O tempo de execução na notação é $O(n)$. A notação não busca medir o tempo, mas sim a quantidade e variância de operações de um algoritmo em relação a um conjunto de dados.
+
+- #### $O(n)$ -> Variação linear da quantidade de operações.
+    Por exemplo, considerando uma tabela de 250.000 registros, um algoritmo $O(n)$ levará 250.000 operações para processá-la inteiramente, da forma que for. Pois a quantidade de operações crescerá de forma linear.
+
+- #### $O(log_{2}n)$ -> Variação logarítmica da quantidade de operações.
+     Usando o mesmo exemplo do algoritmo  $O(n)$, o algoritmo de $O(log_{2}n)$, levará uma quantidade de operações exponencialmente menor, isto é, logarítmico, para processar a tabela de 250.000 registros.
