@@ -1,0 +1,123 @@
+# Aula 4 a 6 do Curso Python3 - Mundo 1
+
+## Sumário
+
+- [Aula 4 – Primeiros comandos em Python3 + Exercício 0](#aula-4--primeiros-comandos-em-python3)
+- [Aula 5 - Instalando o PyCharm e o QPython3 + Exercícios 1 e 2](#aula-5---instalando-o-pycharm-e-o-qpython3--exercícios-1-e-2)
+- [Aula 6 - Tipos primitivos e saída de dados + Exercícios 3 e 4](#aula-6---tipos-primitivos-e-saída-de-dados--exercícios-3-e-4)
+
+## Aula 4 – Primeiros comandos em Python3
+
+Esta aula abordará os conceitos e comandos bases de:
+
+- Interação com usuário e exibição de mensagens
+- Diferenças entre tipos de dados texto e números
+- Concatenação
+- Entrada de dados
+- Variáveis e, brevemente, objetos
+
+Então, antes de tudo poder exibir uma mensagem na tela, pode ser um bom ínicio de interação com programação.
+
+---
+
+### Como exibir uma mensagem? - Função 'print()'
+
+Para exibir mensagens, textos, resultados de cálculos e valores, pode-se utilizar a função 'print()' 
+
+    *OBS: O conceito de funções será visto mais a frente no curso*
+
+- #### Exibição de textos:
+
+Tudo que for exibido com o intuito de expressar um texto deve estar entre aspas (no Python podem ser tanto aspas simples quanto duplas, porém o usual são as simples):
+
+```python
+print('Olá mundo')
+
+Resultado: Olá mundo (string)
+```
+
+```python
+print('7' + '4')
+
+Resultado: 74 (string)
+```
+
+
+- #### Exibição de números e/ou cálculos:
+
+Tudo o que for exibido com o intuito de ser usado em cálculos ou números **não** deve conter aspas:
+
+```python
+print(7 + 4)
+
+Resultado: 11 (int)
+```
+
+**Ideia central**:
+O Python diferencia claramente:
+
+- **Strings (texto)** → entre aspas
+
+- **Números** → sem aspas
+
+Essa diferença é essencial para evitar erros futuros.
+
+---
+
+### Concatenação e o uso de sinais
+
+O conceito de concatenação é essencial dentro do mundo da programação e, como visto acima, por exemplo, é possível concatenar mensagens que serão retornadas ao usuário, porém existem alguns pontos de atenção sobre as formas de se realizar a concatenação:
+
+- #### Concatenação utilizando o símbolo de adição '+':
+
+O símbolo de adição '+' em Python, além de ser, um operador de adição entre números, também possui diversas funções e uma delas é a concatenação de texto com texto, exclusivamente. Isto é, é possível concatenar textos, se e somente se tudo for string.
+
+```python
+print('Olá' + 'mundo')
+
+Resultado: Olá mundo
+```
+
+```python
+print('7' + 7)
+
+Resultado: # TypeError: can only concatenate str (not "int") to str
+```
+```python
+print('7' + '7')
+
+Resultado: '77'
+```
+
+- #### Concatenação utilizando vírgula:
+
+É o método mais seguro e versátil para concatenar dados de naturezas diferentes, pois concatena texto, número, etc.
+
+```python
+print('Olá', 'mundo')
+
+Resultado: Olá mundo
+```
+
+```python
+print('7', 7)
+
+Resultado: 7 7 # (7 string 7 int)
+```
+```python
+print('7', '7')
+
+Resultado: 7 7 # (7 string 7 string)
+```
+
+---
+
+### Variáveis e entrada de dados através de funções 'inputs()'
+
+O conceito de variáveis pode ser ilustrado como "espaços reservados na memória do computador" criados para armazenar dados temporariamente
+
+
+
+## Aula 5 - Instalando o PyCharm e o QPython3 + Exercícios 1 e 2
+
+## Aula 6 - Tipos primitivos e saída de dados + Exercícios 3 e 4

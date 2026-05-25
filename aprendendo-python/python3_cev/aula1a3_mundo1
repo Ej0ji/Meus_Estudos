@@ -1,0 +1,113 @@
+# Aula 1 a 3 do Curso Python3 - Mundo 1
+
+## Sumário
+
+- [Aula 1 - Seja um programador!](#aula-1---seja-um-programador)
+- [Aula 2 - Para que serve Python?](#aula-2---para-que-serve-python)
+- [Aula 3 - Instalando Python](#aula-3-instalando-python)
+
+## Aula 1 - Seja um programador!
+
+### O que é ser um programador?
+
+Ser um programador nada mais é, do que ser uma pessoa que soluciona problemas passo-a-passo de forma lógica, quebrando os problemas em partes menores, utilizando ferramentas e linguagens digitais para tal, isto é, comunicar-se com máquinas utilizando linguagens que estas entendem. Para que assim sigam instruções lógicas definidas pelo programador e realizem processamentos afim de solucionar algo.
+
+Não é preciso nenhum conhecimento prévio avançado em matemática, inglês, física, ou qualquer outra coisa. Nada além do básico dos conhecimentos gerais será necessário.
+
+Programar é um percurso de evolução, onde podemos evoluir nossas habilidades lógicas, de organização, criativas e colaborativas!
+
+## Aula 2 - Para que serve Python?
+
+### De onde vem o Python?
+
+Python foi criado no ano de 1989, na Holanda, por Guido van Rossum, enquanto Guido trabalhava na CWI (Centro de Matemática e Computação de Amsterdã).
+
+Durante esse tempo Guido estava trabalhando com alguns projetos que devido a complexidade das linguagens da época, como C e Java, o processo de desenvolvimento se tornava moroso. Por isso o Python nasceu para atender os príncipios:
+
+De ser uma linguagem que: 
+
+- Fosse mais simples e intuitiva do que as existentes;
+
+- Aumentasse a produtividade dos programadores
+com um código mais legível.
+
+O nome não vem da cobra, mas sim no grupo de comédia britânico: **Monty Python's Flying Circus**
+
+Guido gostava do humor do programa e queria um nome **curto, diferente e memorável**.
+
+---
+### Evolução e manutenção
+
+Atualmente, a linguagem é mantida por uma organização sem fins lucrativos chamada de **Python Software Foundation (PSF)**
+
+
+Recebe apoio de grandes empresas como:
+
+- Microsoft;
+- Google;
+- Outras grandes companhias de tecnologia.
+
+---
+### Casos de uso da linguagem
+
+Por ser uma linguagem:
+
+-  interpretada;
+- Multiplataforma;
+- De sintaxe simples e organizada;
+- De alta legibilidade;
+- Orientada a objetos e de multiparadigmas;
+- De alta capacidade de processamento de números;
+- Gratuita e open source.
+
+Esta vem a ser uma linguagem, que com essas diferentes caracteristicas, apta para diferentes áreas de aplicações. tais como:
+
+- 💻  Desenvolvimento de Aplicações desktop e Backends web;
+
+- 🌐 Desenvolvimento e requisições de APIs e Sistemas distribuídos;
+
+- 🤖 Machine learning, Análise de dados e Automação;
+
+- 🎮 Áreas diversas como desenvolvimento de jogos, computação gráfica, scripts e automações.
+
+## Aula 3 Instalando Python
+
+Como visto na aula 1, para um programador conseguir passar instruções e se comunicar com máquinas processadoras, o mesmo necessita de uma linguagem para ser a mediação entre a comunicação humana e máquina. Uma vez que, um utiliza verbos e textos, a outra utiliza zeros e uns. Essa é a **linguagem de programação**
+
+Além da própria linguagem, para que as instruções escritas pelo programador sejam compreendidas efetivamente pela máquina, é preciso também um de dois:
+
+- OU UM COMPILADOR
+
+- OU UM INTERPRETADOR
+
+ Ambos possuem um objetivo semelhante, converter as instruções na linguagem de programação para sinais (0 e 1) que as máquinas entendem. A principal diferença está na forma de tradução. Enquanto os compiladores traduzem todo o código-fonte de uma vez para a linguagem de máquina antes da execução, gerando um arquivo executável (como um .exe). Os interpretadores analisam, traduzem e executam o código sob demanda, instrução por instrução.
+Cada um destes possuem suas vantagens e desvantagens que, por ora, não vale o contexto.
+
+<img src="../curso_cev_python/imgs/comp-vs-interp.png" style="width: 500px; margin: 20px;">
+
+*Figura 1 - Compilador e Interpretador*
+
+No caso atual, a linguagem Python é uma **linguagem interpretada**.
+
+Em conclusão, o desenvolvimento em Python necessita dos seguintes componentes:
+
+- Linguagem
+- Interpretador
+- *Integrated Development Environment (IDE)* 
+
+        IDE -> Não citado anteriormente, mas não menos importante. É, como o próprio nome diz, um ambiente para o desenvolvedor escrever os programas.
+
+
+
+Como este é um curso de Python, é interessante especificar que a IDE nativa de Python chama-se *Integrated Development and Learning Environment (IDLE)*, pois é também otimizada para o processo de aprendizado.
+
+E para obter os requisitos acima, basta seguir o passo-a-passo de instalação conforme documentação e pacotes de instalação do próprio [site oficial do Python](https://www.python.org/).
+
+---
+
+
+
+
+
+
+
