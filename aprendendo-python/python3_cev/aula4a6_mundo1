@@ -114,7 +114,7 @@ Resultado: 7 7 # (7 string 7 string)
 
 ### Variáveis e entrada de dados através de funções 'inputs()'
 
-O conceito de variáveis pode ser ilustrado como "espaços reservados na memória do computador" criados para armazenar dados temporariamente
+O conceito de variáveis pode ser ilustrado como "espaços reservados na memória do computador" criados para armazenar dados temporariamente, e manipulá-los em tempo de execução de programas.
 
 
 
