@@ -6,6 +6,8 @@
 - [Aula 5 - Instalando o PyCharm e o QPython3 + Exercícios 1 e 2](#aula-5---instalando-o-pycharm-e-o-qpython3--exercícios-1-e-2)
 - [Aula 6 - Tipos primitivos e saída de dados + Exercícios 3 e 4](#aula-6---tipos-primitivos-e-saída-de-dados--exercícios-3-e-4)
 
+---
+
 ## Aula 4 – Primeiros comandos em Python3
 
 Esta aula abordará os conceitos e comandos bases de:
@@ -114,10 +116,64 @@ Resultado: 7 7 # (7 string 7 string)
 
 ### Variáveis e entrada de dados através de funções 'inputs()'
 
-O conceito de variáveis pode ser ilustrado como "espaços reservados na memória do computador" criados para armazenar dados temporariamente, e manipulá-los em tempo de execução de programas.
+- #### O que são variáveis?
 
+Além de exibir mensagens, um segundo ponto importante para se entender no começo do estudo de programação em Python é o de **variáveis**.
 
+**O conceito de variáveis pode ser ilustrado como "espaços reservados na memória do computador" criados para armazenar dados temporariamente, e manipulá-los em tempo de execução de programas.**
+
+Daí a importância destas variáveis. Uma vez que o objetivo final de todo e qualquer programa é manipular dados para gerar ações. Os dados podem ser definidos de forma prática, como sendo o 'sangue' de um programa.
+
+- #### Regras sintáticas das variáveis
+
+Ao criar as tais variáveis, é preciso seguir algumas regras básicas para que seja possível definí-las com sucesso dentro de um programa.
+
+**Sintaxe de Atribuição**: O símbolo de igual (=) em Python não significa igualdade matemática, mas sim um operador de atribuição (lê-se como "recebe"). Por exemplo, *nome = 'Guanabara'* significa que a variável nome está recebendo o texto 'Guanabara':
+
+```Python
+nome = 'Guanabara'
+```
+
+    Lembrete: Variáveis em Python são todas consideradas objetos. Esse conceito será melhor abordado ao avançar do curso
+
+**Sintaxe de nomeação**: Para definir variáveis, é necessário que o nome delas:
+
+- **Caracteres permitidos**: Use apenas letras (A-Z, a-z), números (0-9) e sublinhado (underscore _).
+
+- **Início**: Não comece nomes com números. Sempre inicie com uma letra ou underscore.
+
+- **Espaços e caracteres especiais**: Não utilize espaços, hifens, acentos ou símbolos especiais.
+
+- **Palavras reservadas**: Não use palavras-chave que já possuem uma função na linguagem (ex: if, for, print, while).
+
+- **Sensibilidade** (Case Sensitive): Nomes com letras maiúsculas e minúsculas são tratados como variáveis diferentes. Ex: idade <> Idade.
+
+---
+
+- #### Atribuição de variáveis através de 'input()'
+
+Uma das possíveis formas de inserir dados em variáveis é a função 'input()'. Com esta, é criado para o usuário, um local para inserir dados através do terminal.
+
+```Python
+nome = input('Escreva seu nome: ')
+
+Resultado: Escreva seu nome: ____
+```
+
+Além de inserir os dados é possível definir qual será o tipo de dado do valor inserido. Por padrão todo valor inserido na função 'input()' é do tipo string, porém é possível definir o valor inserido como tipo numérico utilizando funções de definição de tipo, como exemplo 'int()':
+
+```Python
+num1 = int(input('Insira um número: '))
+
+Resultado: Insira um número: 3 -> 3 (tipo inteiro)
+```
 
 ## Aula 5 - Instalando o PyCharm e o QPython3 + Exercícios 1 e 2
 
+Para facilitar o aprendizado em Python, a instalação de uma IDE (Integrated Development Environment) otimizada para o desenvolvimento na linguagem Python, é de grande ajuda!
+
+Verifique a documentação no [site da JetBrains para instalar o PyCharm](https://www.jetbrains.com/pycharm/).
+
 ## Aula 6 - Tipos primitivos e saída de dados + Exercícios 3 e 4
+
+Como visto na aula 4, variáveis recebem valores, valores esses que são definidos por tipos.
